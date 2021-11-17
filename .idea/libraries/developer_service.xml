@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="developer-service">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.webpack/developer-service.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
