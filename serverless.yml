@@ -9,7 +9,7 @@ plugins:
 
 provider:
   name: aws
-  runtime: nodejs14.x
+  runtime: nodejs12.x
   memorySize: 256
   stage: ${opt:stage, 'dev'}
   region: us-east-2
@@ -84,6 +84,7 @@ functions:
       - http:
           method: POST
           path: /user
+
           cors: true
 
   getUsers:

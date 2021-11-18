@@ -1,4 +1,4 @@
-import { v5 as uuid } from 'uuid';
+import { v4 as uuid } from 'uuid';
 import AWS from 'aws-sdk';
 import createError from 'http-errors';
 
@@ -7,12 +7,13 @@ const dynamodb = new AWS.DynamoDB.DocumentClient();
 async function createUser(event, context) {
     const { username, email, password} = JSON.parse(event.body);
     const now = new Date();
+    const hashedPssword = crypto.encode = password;
 
     const user = {
         id: uuid(),
         username,
         email,
-        password,
+        hashedPssword,
         userCreatedAt: now.toISOString(),
     };
 

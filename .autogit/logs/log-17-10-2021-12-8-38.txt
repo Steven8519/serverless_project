@@ -1,0 +1,29 @@
+-------------------- Auto-Git Log --------------------
+		Wed Nov 17 2021 12:08:38 GMT-0600 (Central Standard Time)
+------------------------------------------------------
+
+Modified files:
+* frontend
+
+
+Created files:
+* .autogit/autogit.json
+* .idea/.gitignore
+* .idea/aws.xml
+* .idea/inspectionProfiles/Project_Default.xml
+* .idea/libraries/developer_service.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/runConfigurations.xml
+* .idea/serverless.iml
+* .idea/sonarlint/issuestore/8/8/88cae742927d22b9a06ddca7b89e74ab5aca3211
+* .idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+* .idea/sonarlint/issuestore/index.pb
+* .idea/vcs.xml
+* frontend.gitignore
+
+
+Deleted files:
+
+
+Renamed files:
